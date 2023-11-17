@@ -22,7 +22,7 @@ header {
 
 header h1 {
     display: inline-block;
-    float: left;
+    flex: left;
     padding: 19px 24px;
     text-transform: uppercase;
 }
@@ -36,7 +36,7 @@ header h1 a:hover {
 }
 
 header ul {
-    float: left;
+    flex: left;
 }
 
 header ul li {
@@ -101,7 +101,7 @@ h2 span {
 }
 
 #content {
-    float: left;
+    flex: left;
     width: 75%;
 }
 
@@ -154,7 +154,7 @@ h2 span {
 #ContactForm1_contact-form-submit {
     width: 100%;
     font-family: 'Open Sans';
-    float: left;
+    flex: left;
     background: #fff;
     color: #aaa;
     margin: 10px auto;
@@ -208,7 +208,7 @@ img.contact-form-cross {
 }
 
 aside {
-    float: right;
+    flex: right;
     width: 25%;
     padding-left: 20px;
 }
